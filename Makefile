@@ -6,6 +6,7 @@ REFVER := $(shell cat .git/HEAD | cut -d "/" -f 3)
 SEMVER ?= $(shell cat .git/HEAD | cut -d "/" -f 3)
 HELMPACKAGE := "bumper"
 
+
 .PHONY: build test clean run docker-run docker-build docker-push docker-tag helm-create helm-package helm-test kdeploy
 
 test:
