@@ -1,0 +1,7 @@
+**.tgz
+build
+build/**
+
+.idea
+.idea/**
+
